@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+  background-color: #d09dee;
+  color: #FFFFFF;
+}
+body .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header .navbar {
+  background-color: #caa1e2;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+header .navbar-brand img {
+  width: 70px;
+}
+header .navbar-nav .nav-link {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+header .navbar-nav .nav-link:hover {
+  color: #74dff1;
+}
+
+main {
+  margin-bottom: 4rem;
+  background-color: #673883;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 120px;
+}
+main .article1 {
+  margin-top: 20px;
+  flex-direction: row;
+  text-align: start;
+  padding: 1rem;
+}
+main .article1 img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+main .article1 h1 {
+  color: #74dff1;
+  font-size: 3.5rem;
+  padding-bottom: 15px;
+}
+main .article1 .custom-paragraph {
+  text-align: justify; /* Justifica el texto para una mejor legibilidad */
+  padding: 15px;
+  color: aliceblue;
+  border-radius: 5px; /* Bordes redondeados */
+}
+main .article1 .img-fluid {
+  max-width: 25%;
+  height: auto;
+  display: flex;
+  margin-right: 15%;
+}
+
+.article2 h2 {
+  color: #74dff1;
+  padding-bottom: 15px;
+  font-size: 3.5rem;
+}
+.article2 p {
+  background-color: #caa1e2;
+  padding: 1rem;
+  border-radius: 2%;
+  margin-bottom: 1rem;
+  color: aliceblue;
+  font-size: 1.9rem;
+}
+
+.article3 {
+  margin-top: 10px;
+}
+.article3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-right: 90%;
+}
+.article3 h3 {
+  color: #74dff1;
+  font-size: 3.5rem;
+  padding-bottom: 15px;
+}
+.article3 .btn {
+  margin-top: 50px;
+}
+.article3 .custom-paragraph {
+  text-align: justify; /* Justifica el texto para una mejor legibilidad */
+  padding: 15px;
+  color: aliceblue;
+  border-radius: 5px; /* Bordes redondeados */
+}
+.article3 .img-fluid {
+  max-width: 25%;
+  height: auto;
+  display: flex;
+  margin-right: 15%;
+}
+
+@media (max-width: 768px) {
+  .header .logo {
+    max-width: 80px;
+  }
+  .article1 h1 {
+    font-size: 1.5rem;
+  }
+  .article2 h2 {
+    font-size: 1.25rem;
+  }
+  .article3 h3 {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 576px) {
+  .article1 h1 {
+    font-size: 1.25rem;
+  }
+  .article2 h2 {
+    font-size: 1rem;
+  }
+  .article3 h3 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .responsive-img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .responsive-img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+footer {
+  background-color: #caa1e2;
+  padding: 1rem;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
